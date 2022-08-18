@@ -106,19 +106,22 @@ main{
     grid-template-columns: 45vw 45vw;
     align-items: center;
     justify-content: center;
-    background-color:#0759BC;
+    background-color:#AECFFF;
     padding: 1.2em 0;
     background: url('./casual-life-3d-stationery-2.png') fixed  center center;
     background-size: cover;
     
+    
 }
 .container-services{
-    background-color: #984400;
+    background-color: #AECFFF;
     padding-top: 30px;
     border-radius: 44px;
-background: #984400;
-box-shadow:  5px 5px 10px #984400,
-             -5px -5px 10px #984400;
+background: #AECFFF;
+box-shadow:  5px 5px 10px #AECFFF,
+             -5px -5px 10px #AECFFF
+              5px 5px 20px #99b6e0,
+             -5px -5px 20px #c3e8ff;;
 
     border: 1px solid saddlebrown;
     border-radius: 50px ;
@@ -285,7 +288,7 @@ footer{
     border: 2px solid blue;
     border-radius: 30px;
     padding: 15px;
-    background-color: #984400;
+    background-color: #AECFFF;
     cursor: cell;
 } */
 .social{
@@ -361,7 +364,7 @@ footer h6 {
         
     }
     .container-services{
-        background-color: #984400;
+        background-color: #AECFFF;
         padding-top: 30px;
         height: 50%;
         border: 1px solid saddlebrown;
