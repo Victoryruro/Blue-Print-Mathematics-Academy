@@ -395,7 +395,7 @@ summary{
     .link > a{
         font-size: large;
         padding: 7px;
-        border-radius: 33%;
+        border-radius: 5px 30px 30px 5px;
     }
     /* main */
     .container-intro{
@@ -507,7 +507,7 @@ summary{
     .link > a{
         font-size: large;
         padding: 10px;
-        border-radius:  140% 60% / 0px 120px;
+        border-radius:  5px 30px 30px 5px;
     }
     .intro-text{
         width: 25rem;
