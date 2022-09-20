@@ -7,6 +7,12 @@
 a{
     cursor: cell;
 }
+.underline{
+    text-decoration: underline;
+}
+.green{
+    color: rgba(6, 31, 220, 0.849);
+}
 html{
     margin: 0px auto;
     background-color: transparent;
@@ -38,8 +44,8 @@ header{
     border: 3px solid rgba(9, 188, 242, 0.975);
     padding: 15px;
     align-self: center;
-    border-radius: 140% 60% / 0px 120px;
-    transition: background-color border-radius 200ms ease;
+    border-radius: 5px 30px 30px 5px;
+    transition: background-color  200ms ease;
     
 }
 .link > a:hover{
@@ -225,6 +231,8 @@ figcaption{
     background-size: cover;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 .announcement>.another{
     border-radius: 10px/20px;
@@ -235,7 +243,7 @@ figcaption{
 .announcement>.another>ol>li{
     padding: 15px;
 }
-.announcement>.another> ol> button{
+.announcement>.another> ol  button{
     font-size: clamp(20px,30px ,100px);
     padding: 7px ;
     
@@ -316,6 +324,61 @@ footer h6 {
     font-weight: bold;
     font-size: medium;
     text-align: center;
+}
+.sunday{
+    /* height: 15rem; */
+    background-color: #aeceff37;
+    color: blue;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.sunday> h4{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 0px;
+    
+}
+.sunday p{
+    font-size: 25px;
+    text-align: center;
+}
+.sunday button{
+    padding: 15px;
+    border: none;
+    text-align: center;
+    padding-bottom: 2px;
+    align-self: center;
+    border-radius: 15px 0px 10px 0px;
+    box-shadow: 5px 5px 10px whitesmoke,
+    5px 7px 0 2px whitesmoke,
+    5px 5px 10px 2px whitesmoke,
+    5px 5px 10px whitesmoke,
+    inset 5px 5px  0 white;
+}
+.sunday button:hover{
+    background-color: blue;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px rgba(59, 59, 192, 0.653),
+    5px 7px 0 2px rgba(59, 59, 192, 0.653),
+    5px 5px 10px 2px rgba(59, 59, 192, 0.653),
+    5px 5px 10px rgba(59, 59, 192, 0.653),
+    inset 5px 5px  0 rgba(0, 0, 245, 0.96);
+}
+.sunday button:hover a:hover{
+    color: whitesmoke;
+}
+.sunday a{
+    font-weight: bolder;
+    font-size: larger;
+}
+summary{
+    font-size: large;
+    color: #AECFFF;
 }
 
 
