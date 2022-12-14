@@ -36,7 +36,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-evenly;
-    height:9rem;
+    height:10rem;
     position: fixed;
     top: 0;
     background-color: rgba(255, 255, 255, 0.992);
@@ -60,7 +60,7 @@ header{
     border-radius: -116%;
 }
 #logo{
-    
+    width: 10%;
     /* border-radius: 90% 200px / 50% 100px; */
     mix-blend-mode: unset;
     border: none;
@@ -435,9 +435,9 @@ summary{
     /* header{ 
         
     }*/
-    /* #logo{
-        width: 23%;
-    } */
+    #logo{
+        width: 10%;
+    }
     header{
         height: 6.5rem;
     }
@@ -564,6 +564,11 @@ summary{
         padding-right: 3px;
     }
 }
+@media  only  screen and (max-width:390px){
+    #logo{
+        width: 20%;
+    }
+}
 @media only screen and (max-width:920px) and (min-width:600px) {
     .link > a{
         font-size: large;
@@ -578,5 +583,11 @@ summary{
     }
 
 
+
     
+}
+@media  only  screen and (min-width:1200px){
+    #logo{
+        width: 8%;
+    }
 }
