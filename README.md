@@ -1,3 +1,3 @@
-# Blue-Print-Mathematics-Academy
-Blue print mathematics academy is a whatsapp based math tutorials
-tthis is the official website
+# E-LEARNING Global
+E_LG officail is a whatsapp based  tutorials
+this is the official website
