@@ -28,6 +28,7 @@ main> span{
     text-align: center;
     font-size: larger;
     color: #04185e;
+    padding-top: 16px;
 }
 /* header */
 header{
@@ -207,7 +208,7 @@ box-shadow:inset  5px 5px 10px #005564,
 .con-img h2{
     color: royalblue;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-size: 3em;
     padding: 20px;
     text-decoration: wavy darkblue;
 }
@@ -425,9 +426,9 @@ summary{
 
 
 /* media query */
-@media  only  screen and (max-width:1000px){
+@media  only  screen and (max-width:1200px){
     .img .worker{
-        max-width: 45%;
+        max-width: 50%;
         padding: 15px;
     }
 }
