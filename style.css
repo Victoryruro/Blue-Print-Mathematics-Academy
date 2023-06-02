@@ -6,6 +6,18 @@
 }
 a{
     cursor: cell;
+    width: 5%;
+}
+.absolute{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+.absolute-right{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+
 }
 .underline{
     text-decoration: underline;
@@ -37,7 +49,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-evenly;
-    height:10rem;
+    height:max-content;
     position: fixed;
     top: 0;
     background-color: rgba(255, 255, 255, 0.992);
@@ -48,6 +60,7 @@ header{
     font-size: x-large;
     font-weight: bold;
     /* color: rgba(9, 188, 242, 0.975); */
+    background-color: #AECFFF;
     border: 3px solid navy;
     padding: 15px;
     align-self: center;
@@ -74,7 +87,7 @@ main{
 }
 .container-intro{
     margin-top: 9em;
-    padding: 3rem 0;
+    padding: 3rem 4px;
     padding-bottom: 2em;
     display: flex;
     margin-bottom: 0px auto;
@@ -86,14 +99,21 @@ main{
 #intro-img{
     background-color: transparent;
     width: 100%;
+    box-shadow: inset 0px -15px 1px;
     
 
 }
 .intro-text{
-    width: 25rem;
+    flex-basis: 50%;
+    max-width: 50%;
     font-size: xx-large;
+    text-align: center;
     
     
+}
+.intro-img{
+    flex-basis: 50%;
+    max-width: 50%;
 }
 .intro-text> button{
     padding: 7px ;
@@ -206,7 +226,7 @@ box-shadow:inset  5px 5px 10px #005564,
     text-align: center;
 }
 .con-img h2{
-    color: royalblue;
+    color: skyblue;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3em;
     padding: 20px;
@@ -237,6 +257,8 @@ box-shadow:inset  5px 5px 10px #005564,
     box-shadow: inset 5px 5px 10px #00556415,
     inset -5px -5px 10px #0094ae38;
     color: skyblue;
+    
+    line-height: 40px;
     
 }
 .container-founder #overide >h2,.container-founder #overide >h3,.container-founder #overide time, .container-founder #overide  strong {
@@ -273,11 +295,12 @@ figcaption{
     margin-bottom: 0px;
     padding-bottom: 0px;
     margin-top: 0px;
-    padding-top: 0px;
+    padding-top: 10px;
 }
 .announcement>.another{
     border-radius: 10px/20px;
-    background-color: #C2A875;
+    background-color: #7D9ECC;
+    
     padding-bottom:5px ;
 
 }
@@ -299,7 +322,7 @@ figcaption{
 /* footer */
 footer{
     height: fit-content;
-    background-color: hwb(180deg 95% 3% / 3%);
+    background-color: #003359;
     color:rgb(232, 236, 242);
     display: flex;
     justify-content: center;
@@ -309,10 +332,11 @@ footer{
     align-items: center;
 }
 .footer-container{
-    background-color: rgba(1, 14, 14, 0.877);
     width: 70%;
     height: fit-content;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 
 }
@@ -342,7 +366,9 @@ footer{
 } */
 .social{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column-reverse;
+    align-items: center;
     
 }
 .social>div{
@@ -440,7 +466,7 @@ summary{
         width: 10%;
     }
     header{
-        height: 6.5rem;
+        height:max-content;
     }
     .link > a{
         font-size: large;
@@ -456,11 +482,16 @@ summary{
     }
     #intro-img{
         background-color: transparent;
-        width: 11rem;
+    
     
     }
+    .intro-img{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
     .intro-text{
-        width: 20rem;
+        flex-basis: 80%;
+        max-width: 80%;
         text-align: center;
         font-size: medium;
         padding-left: 3px;
@@ -588,4 +619,5 @@ summary{
     #logo{
         width: 8%;
     }
+
 }
