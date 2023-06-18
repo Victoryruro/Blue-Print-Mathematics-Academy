@@ -23,7 +23,7 @@ a{
     text-decoration: underline;
 }
 .green{
-    color: rgba(6, 31, 220, 0.849);
+    color: rgb(38 60 225 / 85%);
 }
 html{
     margin: 0px auto;
@@ -286,6 +286,40 @@ figcaption{
     -webkit-background-clip: text; */
     
 }
+/* youtube section */
+.youtube-videosection{
+    background-color: inherit;
+    background: url("./IMG-20221128-WA0007.jpg" )center fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 51px;
+    font-size: x-large;
+    font-family: fantasy;
+    text-align: center;
+
+}
+.youtube-videosection .youtube-videocontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
+}
+.youtube-videosection .youtube-videocontainer .video{
+    width: auto;
+    margin: 15px;
+    flex-basis: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #7D9ECC;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+iframe{
+    width: 420px;
+}
 /* annoucement */
 .announcement{
     padding: 15px 0;
@@ -322,7 +356,7 @@ figcaption{
 /* footer */
 footer{
     height: fit-content;
-    background-color: #003359;
+    background-color: #003259ca;
     color:rgb(232, 236, 242);
     display: flex;
     justify-content: center;
